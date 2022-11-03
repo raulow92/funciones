@@ -1,0 +1,28 @@
+body {
+    display: flex;
+}
+
+div {
+    width: 200px;
+    height: 200px;
+}
+
+#primero {
+    background: red;
+}
+
+#segundo {
+    background: green;
+}
+
+#tercero {
+    background: blue;
+}
+
+#cuarto {
+    background: black;
+}
+
+div:nth-child(5){
+    margin-left: 20px;
+}
